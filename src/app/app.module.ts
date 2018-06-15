@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { Code404Component } from './code404/code404.component';
 import { ProductdescComponent } from './productdesc/productdesc.component';
 import { SellerInfoComponent } from './seller-info/seller-info.component';
+import { ChatComponent } from './chat/chat.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SellerInfoComponent } from './seller-info/seller-info.component';
     HomeComponent,
     Code404Component,
     ProductdescComponent,
-    SellerInfoComponent
+    SellerInfoComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
